@@ -1,0 +1,330 @@
+@media screen and (min-width:992px) and (max-width:1199px){
+  body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  body p {
+    margin: 0;
+  }
+
+  .container{
+    max-width: 810px;
+    height:100%;
+    position: relative;
+  }
+
+  .container .form_button input {
+    width: 250px;
+    margin-top: 30px;
+  }
+
+  .container .form_button input:first-child {
+    margin-right: 30px;
+  }
+
+  /* トップページ */
+   .top_img{
+     width:100%;
+     height:380px;
+     background: url(../img/top.jpg);
+     background-position: center;
+     background-size: cover;
+     margin: 45px 0;
+   }
+   .shop_enter{
+     width:300px;
+     height:60px;
+     border: 1px solid rgba(0,0,0,0.8);
+     padding-top:15px;
+     margin: 0 auto;
+   }
+   .shop_enter a{
+     color: rgba(0,0,0,0.8);
+   }
+   .shop_enter a:hover{
+     color: rgba(0,0,0,1.0);
+     text-decoration: none;
+   }
+  /* トップページ */
+
+  /* ログアウトボタン */
+  header p, header a {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  header a {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  header a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  /* ログアウトボタン */
+
+  /* ショップリストページ */
+  .shop_table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .shop_table table {
+    width: 350px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+
+  .shop_table table:nth-child(3n) {
+    margin-right: 15px;
+  }
+
+  .shop_table table:nth-child(2n) {
+    margin-right: 15px;
+  }
+
+  .shop_table table tr td {
+    padding: 5px;
+  }
+
+  .shop_table table .pro_name {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .shop_table table .pro_img {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .shop_table table .pro_price {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .shop_table table .img_pro {
+    width: 300px;
+    height: 250px;
+  }
+
+  .shop_table table td img {
+    width: 100%;
+    height: 100%;
+  }
+  /* ショップリストページ */
+
+  /* ショップ参照ページ */
+  .shop_pro table {
+    width: 650px;
+    margin: 0 auto;
+  }
+
+  .shop_pro table tr td {
+    padding: 15px;
+  }
+
+  .cart_add {
+    margin-bottom: 30px;
+  }
+
+  .cart_add a {
+    font-size: 18px;
+    display: block;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+  }
+
+  .cart_add a:hover {
+    color: black;
+  }
+
+  /* ショップ参照ページ */
+
+  /* 商品カートページ */
+  .shop_cartlook{
+    min-height: 800px;
+  }
+  .shop_cartlook table {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .shop_cartlook table td{
+    font-size: 14px;
+    padding: 5px;
+  }
+  .shop_cartlook tr .pro_name{
+    width:120px;
+  }
+  .shop_cartlook tr .pro_img{
+    width:120px;
+  }
+  .shop_cartlook tr .pro_price{
+    width:120px;
+  }
+  .shop_cartlook tr .pro_quantity{
+    width:120px;
+  }
+  .shop_cartlook tr .pro_sum{
+    width:120px;
+  }
+  .shop_cartlook tr .pro_delete{
+    width:60px;
+  }
+  .shop_cartlook table td img {
+    display: block;
+    width: 100px;
+    height: 80px;
+    margin: 0 auto;
+  }
+  .shop_cartlook .cart_quantity input{
+    display: block;
+    width: 60px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .shop_cartlook .edit_submit input{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .shop_cartlook a{
+    color:rgba(0,0,0,0.8);
+  }
+  .shop_cartlook a:hover{
+    color:rgba(0,0,0,1.0);
+  }
+  .shop_cartin_button {
+    position: absolute;
+    top:0;
+    right:0;
+  }
+  .shop_cartin_button a{
+    color:rgba(0,0,0,0.8);
+  }
+  .shop_cartin_button a:hover{
+    color:rgba(0,0,0,1);
+  }
+  .quantity_change{
+    width:150px;
+  }
+  .shop_carttin{
+    min-height: 800px;
+  }
+  .shop_carttin a{
+    color: rgba(0,0,0,0.8);
+  }
+  .shop_carttin a:hover{
+    color: rgba(0,0,0,1.0);
+  }
+  /* 商品カートページ */
+
+  /* 商品フォームページ */
+  .shop_form form{
+    max-width:650px;
+    margin: 0 auto;
+  }
+  .shop_form .shop_form_reg{
+    margin-top: 30px;
+  }
+  .shop_form .edit_submit input{
+    width: 200px;
+  }
+  /* 商品フォームページ */
+
+  /* 商品フォームチェックページ */
+  .shop_form_check form{
+    margin: 0 auto;
+  }
+  .shop_form_check{
+    min-height: 800px;
+  }
+  .shop_form_check .edit_submit input{
+    width: 200px;
+  }
+  /* 商品フォームチェックページ */
+
+  /* 商品フォーム完了ページ */
+  .shop_form_done form{
+    margin: 0 auto;
+  }
+  .shop_form_done{
+    min-height: 800px;
+  }
+  .shop_form_done .edit_submit a{
+    color: rgba(0,0,0,0.8);
+  }
+  /* 商品フォーム完了ページ */
+
+  /* 商品フォーム簡単チェックページ */
+  .shop_easy_check form{
+    margin: 0 auto;
+  }
+  .shop_easy_check{
+    min-height: 800px;
+  }
+  .shop_easy_check .edit_submit input{
+    width: 200px;
+  }
+  /* 商品フォーム簡単チェックページ */
+
+  /* 商品フォーム簡単チェック完了ページ */
+  .shop_easy_done form{
+    margin: 0 auto;
+  }
+  .shop_easy_done{
+    min-height: 800px;
+  }
+  .shop_easy_done .edit_submit a{
+    color: rgba(0,0,0,0.8);
+  }
+  /* 商品フォーム簡単チェック完了ページ */
+
+  /* メンバーログインページ */
+  .member_login form{
+    margin: 0 auto;
+  }
+  .member_login{
+    min-height: 800px;
+  }
+  .member_login .edit_submit input{
+    width: 200px;
+  }
+  /* メンバーログインページ */
+
+  /* メンバーログアウトページ */
+  .member_logout form{
+    margin: 0 auto;
+  }
+  .member_logout{
+    min-height: 800px;
+  }
+  .member_logout a{
+    color: rgba(0,0,0,0.8);
+  }
+  .member_logout a:hover{
+    color: rgba(0,0,0,1.0);
+  }
+  /* メンバーログアウトページ */
+
+  /* フッター */
+  footer {
+    height: 60px;
+    padding-top: 20px;
+    margin-top: 45px;
+  }
+
+  footer p {
+    font-family: serif;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+  }
+  /* フッター */
+
+}
